@@ -1,0 +1,174 @@
+body, html {
+    
+    margin: 0; 
+    height: 100%;
+    font-family: helvetica; 
+    
+    
+    
+    
+}
+
+
+
+.navbar {
+    
+    font-family: arial;
+}
+
+.font1 {
+    font-family: 'Abril Fatface', cursive; 
+    font-size: 50px;
+    
+    
+}
+
+.fas {
+    
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.brightness {
+    
+    -webkit-filter: brightness(0.40);
+    filter: brightness(0.40);
+
+}
+
+.brightness2 {
+    
+    -webkit-filter: brightness(0.50);
+    filter: brightness(0.50);
+
+}
+
+.carousel-caption{
+    margin-bottom: 20%;
+    
+}
+
+
+
+
+
+.container2 {
+    
+     position: relative;
+ 
+}
+
+.poster {
+  
+    width: 170px;
+    height: 250px;
+}
+
+.poster2 {
+    
+  width: 250px;
+  height: 350px; 
+       
+}
+
+.overlay{
+    
+     position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 170px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightgray;
+}
+
+
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+
+.text{
+
+    color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    
+    font-size: 12px;
+}
+
+
+.icon {
+    
+    font-size: 25px;
+   
+    
+}
+
+.icon2 {
+    
+    font-size: 25px;
+     color: black; 
+}
+
+.myImg2{
+    
+   width: 104px !important;
+    height:104px !important; 
+    
+    
+}
+
+.colhov {
+    
+    transition: .5s ease;
+}
+
+.colhov:hover {
+    
+    background-color: #0B3C5D;
+    
+}
+
+
+.modlist {
+    
+   font-size: 15px;
+     font-weight: 600;
+   
+}
+
+.search {
+    
+    font-family: helvetica;
+    font-size: 20px;
+    
+}
+
+.layer {
+    
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* use https://www.css3maker.com/css-3-rgba.html to apply filters! color and opacity*/
+
+    
+    
+}
+
